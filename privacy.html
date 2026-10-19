@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy · Nechama's Salon app</title>
+<style>
+  body { font-family: -apple-system, system-ui, "Segoe UI", Roboto, sans-serif; color: #1D1A27; background: #F5F3F7; margin: 0; line-height: 1.6; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 20px; }
+  h1 { font-size: 28px; margin: 0 0 4px; }
+  h2 { font-size: 19px; margin-top: 30px; }
+  a { color: #56296B; }
+  .muted { color: #625C70; }
+</style>
+</head>
+<body>
+<main>
+  <p><a href="index.html">← Nechama's Salon app</a></p>
+  <h1>Privacy policy</h1>
+  <p class="muted">Last updated October 19, 2026</p>
+
+  <p>This policy covers the Nechama's Salon app (the "app"), a private booking app used by the owner and staff of Nechama's Salon, Lakewood, New Jersey.</p>
+
+  <h2>What the app stores</h2>
+  <ul>
+    <li><strong>Staff accounts:</strong> email address, name and role, used to sign in.</li>
+    <li><strong>Client records:</strong> name, mobile number, notes about the client's wig, and whether the client agreed to receive text messages (with the date).</li>
+    <li><strong>Appointments and repairs:</strong> dates, times, services, notes, and which repair shop a wig was sent to.</li>
+    <li><strong>Text message history:</strong> the texts the salon sent and whether they were delivered.</li>
+  </ul>
+  <p>This information is stored in a secured database (Supabase) and can only be seen by the salon's logged-in staff, according to their role.</p>
+
+  <h2>Text messages</h2>
+  <p>Appointment confirmations and reminders are sent only to clients who agreed to receive them. Messages are sent through Twilio. Clients can reply STOP at any time to stop all texts, or HELP for help. Mobile numbers and consent are never sold or shared for marketing.</p>
+
+  <h2>Google Calendar</h2>
+  <p>If the salon owner chooses to connect a Google account, the app asks Google only for permission to create its own calendar and manage the events in that calendar (the <code>calendar.app.created</code> permission). The app then copies each booked appointment (client name, service, time, stylist, notes and the client's phone number) to that calendar, and updates or removes the event when the appointment changes or is cancelled.</p>
+  <ul>
+    <li>The app does not read, change or delete any other calendar or event in the Google account.</li>
+    <li>The app does not access email, contacts, files or any other Google data.</li>
+    <li>The connection can be removed at any time in the app (Settings → Google Calendar → Stop syncing) or from the Google account's security settings.</li>
+  </ul>
+  <p>The app's use of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements. Google data is used only to show the salon's appointments in the owner's calendar. It is not sold, not used for advertising, and not shared with anyone else.</p>
+
+  <h2>Sharing</h2>
+  <p>The salon does not sell or rent any personal information. Information is shared only with the services that run the app (Supabase for storage, Twilio for text messages, Google Calendar if connected), and only as needed for them to do so.</p>
+
+  <h2>Keeping and deleting information</h2>
+  <p>Records are kept while they are useful to the salon. Clients may ask the salon to update or delete their information at any time, and staff can archive or delete client records in the app.</p>
+
+  <h2>Questions</h2>
+  <p>For questions about this policy or your information, contact Nechama's Salon directly.</p>
+</main>
+</body>
+</html>
